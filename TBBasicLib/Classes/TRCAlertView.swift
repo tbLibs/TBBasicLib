@@ -9,13 +9,13 @@ import Foundation
 import UIKit
 
 
-class TRCAlertView {
+public class TRCAlertView {
     
-    static func showAlert(title: String? = nil,
-                          message: String? =  nil,
-                          viewController: UIViewController? = UIViewController.getCurrentViewController(),
-                          okCallBack: ((UIAlertAction) -> Void)? = nil,
-                          cancelCallBack: ((UIAlertAction) -> Void)? = nil) {
+    public static func showAlert(title: String? = nil,
+                                 message: String? =  nil,
+                                 viewController: UIViewController? = UIViewController.getCurrentViewController(),
+                                 okCallBack: ((UIAlertAction) -> Void)? = nil,
+                                 cancelCallBack: ((UIAlertAction) -> Void)? = nil) {
         let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let act1 = UIAlertAction(title: "Cancel", style: .cancel, handler: cancelCallBack)
         let act2 = UIAlertAction(title: "OK", style: .default, handler: okCallBack)
@@ -24,11 +24,11 @@ class TRCAlertView {
         viewController?.present(ac, animated: true)
     }
     
-    static func showTextFieldAlert(title: String? = nil,
-                                   message: String? =  nil,
-                                   viewController: UIViewController? = UIViewController.getCurrentViewController(),
-                                   okCallBack: ((_ code: String) -> Void)? = nil,
-                                   cancelCallBack: ((UIAlertAction) -> Void)? = nil) -> UIAlertController {
+    public static func showTextFieldAlert(title: String? = nil,
+                                          message: String? =  nil,
+                                          viewController: UIViewController? = UIViewController.getCurrentViewController(),
+                                          okCallBack: ((_ code: String) -> Void)? = nil,
+                                          cancelCallBack: ((UIAlertAction) -> Void)? = nil) -> UIAlertController {
         let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
         ac.addTextField()
         let act1 = UIAlertAction(title: "Cancel", style: .cancel, handler: cancelCallBack)

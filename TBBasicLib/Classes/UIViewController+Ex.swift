@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     /// 获取当前显示的VC
     ///
     /// - Returns: 当前屏幕显示的VC

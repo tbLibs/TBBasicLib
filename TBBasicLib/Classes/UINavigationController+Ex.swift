@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-enum NavigationBarStyle {
+public enum NavigationBarStyle {
     /// navbar APP主题
     case theme
     /// navbar 透明
@@ -19,14 +19,14 @@ enum NavigationBarStyle {
     case color(_ color: UIColor)
 }
 
-extension UINavigationController {
-
-func navBarStyle(_ style:NavigationBarStyle) {
+public extension UINavigationController {
+    
+    func navBarStyle(_ style:NavigationBarStyle) {
         switch style {
         case .theme:
             navigationBar.barStyle = .black
             let attrDic = [NSAttributedString.Key.foregroundColor:UIColor.black,
-                                                 NSAttributedString.Key.font:UIFont.systemFont(ofSize: 18.0)]
+                           NSAttributedString.Key.font:UIFont.systemFont(ofSize: 18.0)]
             if #available(iOS 13.0, *) {
                 let barApp = UINavigationBarAppearance()
                 barApp.backgroundColor = .white
@@ -68,11 +68,11 @@ func navBarStyle(_ style:NavigationBarStyle) {
                 navigationBar.scrollEdgeAppearance = nil
                 navigationBar.standardAppearance = barApp
             } else {
-//                navigationBar.titleTextAttributes = attrDic
-//                navigationBar.shadowImage = UIImage()
-//                let navBgImg = UIImage.imgColor(UIColor.clear, CGSize(width: SCREEN_WIDTH, height: kNav_Height)).withRenderingMode(.alwaysOriginal)
-//                
-//                navigationBar.setBackgroundImage(navBgImg, for: .default)
+                //                navigationBar.titleTextAttributes = attrDic
+                //                navigationBar.shadowImage = UIImage()
+                //                let navBgImg = UIImage.imgColor(UIColor.clear, CGSize(width: SCREEN_WIDTH, height: kNav_Height)).withRenderingMode(.alwaysOriginal)
+                //
+                //                navigationBar.setBackgroundImage(navBgImg, for: .default)
             }
             // 透明设置
             navigationBar.isTranslucent = true
@@ -84,7 +84,7 @@ func navBarStyle(_ style:NavigationBarStyle) {
             navigationBar.barStyle = .default
             let attrDic = [NSAttributedString.Key.foregroundColor: UIColor.black,
                            NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18)]
- 
+            
             if #available(iOS 13.0, *) {
                 let barApp = UINavigationBarAppearance()
                 barApp.backgroundColor = .white
@@ -97,12 +97,12 @@ func navBarStyle(_ style:NavigationBarStyle) {
                 navigationBar.scrollEdgeAppearance = barApp
                 navigationBar.standardAppearance = barApp
             } else {
-//                navigationBar.titleTextAttributes = attrDic
-//                
-//                let navBgImg = UIImage.imgColor(UIColor.white, CGSize(width: SCREEN_WIDTH, height: kNav_Height)).withRenderingMode(.alwaysOriginal)
-//                
-//                navigationBar.shadowImage = UIImage()
-//                navigationBar.setBackgroundImage(navBgImg, for: .default)
+                //                navigationBar.titleTextAttributes = attrDic
+                //
+                //                let navBgImg = UIImage.imgColor(UIColor.white, CGSize(width: SCREEN_WIDTH, height: kNav_Height)).withRenderingMode(.alwaysOriginal)
+                //
+                //                navigationBar.shadowImage = UIImage()
+                //                navigationBar.setBackgroundImage(navBgImg, for: .default)
             }
             // 透明设置
             navigationBar.isTranslucent = false
@@ -114,7 +114,7 @@ func navBarStyle(_ style:NavigationBarStyle) {
             navigationBar.barStyle = .default
             let attrDic = [NSAttributedString.Key.foregroundColor: UIColor.white,
                            NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18, weight: .medium)]
- 
+            
             if #available(iOS 13.0, *) {
                 let barApp = UINavigationBarAppearance()
                 barApp.backgroundColor = color
@@ -127,17 +127,17 @@ func navBarStyle(_ style:NavigationBarStyle) {
                 navigationBar.scrollEdgeAppearance = barApp
                 navigationBar.standardAppearance = barApp
             } else {
-//                navigationBar.titleTextAttributes = attrDic
-//
-//                let navBgImg = UIImage.imgColor(UIColor.white, CGSize(width: SCREEN_WIDTH, height: kNav_Height)).withRenderingMode(.alwaysOriginal)
-//
-//                navigationBar.shadowImage = UIImage()
-//                navigationBar.setBackgroundImage(navBgImg, for: .default)
+                //                navigationBar.titleTextAttributes = attrDic
+                //
+                //                let navBgImg = UIImage.imgColor(UIColor.white, CGSize(width: SCREEN_WIDTH, height: kNav_Height)).withRenderingMode(.alwaysOriginal)
+                //
+                //                navigationBar.shadowImage = UIImage()
+                //                navigationBar.setBackgroundImage(navBgImg, for: .default)
             }
             // 透明设置
             navigationBar.isTranslucent = true
             // navigationItem控件的颜色
-//            navigationBar.tintColor = .black
+            //            navigationBar.tintColor = .black
             
         }
     }

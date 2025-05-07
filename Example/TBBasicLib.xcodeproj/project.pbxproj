@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		81F5F48F7C907E50E28D83FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9F0542DD6444FC42908D560E /* TBBasicLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TBBasicLib.podspec; path = ../TBBasicLib.podspec; sourceTree = "<group>"; };
+		9F0542DD6444FC42908D560E /* TBBasicLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TBBasicLib.podspec; path = ../TBBasicLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7E92D7339CD0AB130A7624E /* Pods-TBBasicLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBBasicLib_Example.release.xcconfig"; path = "Target Support Files/Pods-TBBasicLib_Example/Pods-TBBasicLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F2BA363D364002718CEF1E88 /* Pods_TBBasicLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBBasicLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA638605614BC07DA75EE23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };

@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UIView {
+public extension UIView {
     
     /// 为视图添加内阴影
     /// - Parameters:
@@ -22,12 +22,12 @@ extension UIView {
         shadowOpacity: Float = 0.5,
         shadowRadius: CGFloat = 5
     ) {
-
+        
         let shadowLayer = CALayer()
         shadowLayer.shadowColor = shadowColor.cgColor
         shadowLayer.shadowOffset = CGSize(width: 0, height: 2)
         shadowLayer.shadowOpacity = 0.5
-
+        
         let shadowPath = UIBezierPath()
         shadowPath.move(to: CGPoint(x: 0, y: 0))
         shadowPath.addLine(to: CGPoint(x: self.bounds.width, y: 0))

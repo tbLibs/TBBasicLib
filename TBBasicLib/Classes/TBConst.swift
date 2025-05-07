@@ -8,14 +8,14 @@
 import Foundation
 import UIKit
 
-let KWidth = UIScreen.main.bounds.width
-let KHeight = UIScreen.main.bounds.height
+public let KWidth = UIScreen.main.bounds.width
+public let KHeight = UIScreen.main.bounds.height
 
 /// 判断是否是iPhone
-let isIPhone = UIDevice.current.deviceTypeIsIphone()
+public let isIPhone = UIDevice.current.deviceTypeIsIphone()
 
 /// 获取 window
-let KWindow: UIWindow? = {
+public let KWindow: UIWindow? = {
     if #available(iOS 13.0, *) {
         return UIApplication.shared
             .connectedScenes
@@ -28,7 +28,7 @@ let KWindow: UIWindow? = {
 }()
 
 /// 获取状态栏高度
-let KStatusBarHeight: CGFloat = {
+public let KStatusBarHeight: CGFloat = {
     if #available(iOS 13.0, *) {
         return UIApplication.shared
             .connectedScenes
@@ -41,7 +41,7 @@ let KStatusBarHeight: CGFloat = {
 }()
 
 /// 获取底部安全距离
-let KBottomHeight: CGFloat = {
+public let KBottomHeight: CGFloat = {
     if #available(iOS 13.0, *) {
         return UIApplication.shared
             .connectedScenes

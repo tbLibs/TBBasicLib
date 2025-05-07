@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     
     func containsEnglishCharacters() -> Bool {
         let pattern = "[a-zA-Z]"

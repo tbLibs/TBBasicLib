@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UIDevice {
+public extension UIDevice {
     
     /// 是否是iPhone
     func deviceTypeIsIphone() -> Bool {
