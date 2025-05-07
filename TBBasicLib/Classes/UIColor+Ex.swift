@@ -1,8 +1,8 @@
 //
-//  TBColor.swift
-//  TBBasicLib
+//  UIColor+Ex.swift
+//  TV Remote Control
 //
-//  Created by 陶博 on 2025/5/7.
+//  Created by 陶博 on 2025/3/10.
 //
 
 import Foundation
@@ -15,9 +15,9 @@ public extension UIColor {
     
     // 颜色转rgb
     convenience init(r: CGFloat,
-                     g: CGFloat,
-                     b: CGFloat,
-                     a: CGFloat) {
+                            g: CGFloat,
+                            b: CGFloat,
+                            a: CGFloat) {
         self.init(red: r/255.0,
                   green: g/255.0,
                   blue: b/255.0,
@@ -68,6 +68,7 @@ public extension UIColor {
             return nil
         }
     }
+    
     
     static var color696969: UIColor {
         UIColor(hex: "#696969") ?? .white

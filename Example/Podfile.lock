@@ -1,15 +1,22 @@
 PODS:
-  - TBBasicLib (0.1.0)
+  - TBBasicLib (0.1.1):
+    - Toast-Swift
+  - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
   - TBBasicLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Toast-Swift
 
 EXTERNAL SOURCES:
   TBBasicLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TBBasicLib: e320bdaa150f4772780548cca1fa248ed680f71e
+  TBBasicLib: ee97b0ae2365d7a6782e6db971b4f5d925a18c41
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
 PODFILE CHECKSUM: cbde5ec86517652efe2bc60a621bd84c0d61e4e7
 

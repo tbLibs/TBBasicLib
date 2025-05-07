@@ -1,6 +1,6 @@
 {
   "name": "TBBasicLib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "一个基础库",
   "description": "TODO: Add long description of the pod here.",
   "swift_versions": "5.0",
@@ -14,11 +14,14 @@
   },
   "source": {
     "git": "https://github.com/tbLibs/TBBasicLib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "TBBasicLib/Classes/**/*",
+  "dependencies": {
+    "Toast-Swift": []
+  },
   "swift_version": "5.0"
 }
