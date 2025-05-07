@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TBBasicLib_Example' do
+  pod 'TBBasicLib', :path => '../'
+
+  target 'TBBasicLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
