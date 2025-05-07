@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		158A3CE4ECE3F39124F4B0AF89ED640D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		1A8FEAF49EAFD1D09C9B384AD8E79DCC /* TBBasicLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB249F49A3816CF834414EFBDF2CD28E /* TBBasicLib-dummy.m */; };
-		4E44FCDC7EADFAA9CE20B361979B631B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAA69D79FC1B4EA31830DBF7EC9DEEF /* ReplaceMe.swift */; };
+		4BE638842DCB3755007170E2 /* TBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE638832DCB3755007170E2 /* TBColor.swift */; };
 		733A2E8807A990B249B369B1A6DC1138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		8682E35E3DF8AB1F31BEFE9B521F2AE3 /* Pods-TBBasicLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D37A4EBE5225448EF248A8E9B919C0 /* Pods-TBBasicLib_Tests-dummy.m */; };
 		A34857F2051D704D67CC6F70B648CF55 /* TBBasicLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E586432772CA12630042D076C74C126 /* TBBasicLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,27 +38,27 @@
 
 /* Begin PBXFileReference section */
 		140FB276E7DCFADB9835E07F0DC5ED23 /* Pods-TBBasicLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBBasicLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1793ECE2F137EE9B7CD92C44244E2B58 /* TBBasicLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TBBasicLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1793ECE2F137EE9B7CD92C44244E2B58 /* TBBasicLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TBBasicLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		17AC306DE9E90728B2E73AAA4675ACDE /* Pods-TBBasicLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBBasicLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1BAA69D79FC1B4EA31830DBF7EC9DEEF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TBBasicLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1D622855E95A64EEC8EF90409A9155A8 /* TBBasicLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBBasicLib.release.xcconfig; sourceTree = "<group>"; };
 		1E586432772CA12630042D076C74C126 /* TBBasicLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBBasicLib-umbrella.h"; sourceTree = "<group>"; };
-		20CB2CFDB69DB159E7B12BC42EC4E878 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		21D9197F22457988DE0D3D3091EA235B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		20CB2CFDB69DB159E7B12BC42EC4E878 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		21D9197F22457988DE0D3D3091EA235B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		288CD00F4E1A8DCC984A15ACBB2A8D83 /* TBBasicLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBBasicLib-prefix.pch"; sourceTree = "<group>"; };
 		2DE7D7B8536184BB06229C9B7240384D /* Pods-TBBasicLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBBasicLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		466E6D6901B284C189555D58C1CE4F57 /* Pods-TBBasicLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBBasicLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		474F0C5413841519A79D1843022B5121 /* TBBasicLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBBasicLib.modulemap; sourceTree = "<group>"; };
+		4BE638832DCB3755007170E2 /* TBColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TBColor.swift; path = TBBasicLib/Classes/TBColor.swift; sourceTree = "<group>"; };
 		5C1C4B3F9E0750DF1CEEB7571B6EDE41 /* Pods-TBBasicLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBBasicLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6940974B9C6472A6F9DB7481A5696572 /* Pods-TBBasicLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBBasicLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		73CDA69626AC000536D0BF1672DC17D8 /* Pods-TBBasicLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TBBasicLib_Example"; path = Pods_TBBasicLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CDA69626AC000536D0BF1672DC17D8 /* Pods_TBBasicLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBBasicLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8979F06C4C82ABE2B002C5F79AEE112C /* Pods-TBBasicLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBBasicLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9BE6AE084816178A468EC504993C052 /* Pods-TBBasicLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBBasicLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B3B01D0504A63F485E54C11102C46FD3 /* Pods-TBBasicLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBBasicLib_Example.modulemap"; sourceTree = "<group>"; };
 		BE02723DD6CB8551476CBEFAEB82B135 /* Pods-TBBasicLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBBasicLib_Example-dummy.m"; sourceTree = "<group>"; };
-		C3B5AD02718DE6C31AED9484C63D8B4A /* Pods-TBBasicLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TBBasicLib_Tests"; path = Pods_TBBasicLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B5AD02718DE6C31AED9484C63D8B4A /* Pods_TBBasicLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBBasicLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B35EFB2AED0CFE9D6B9A09D91E0C86 /* Pods-TBBasicLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBBasicLib_Tests.modulemap"; sourceTree = "<group>"; };
 		C7D37A4EBE5225448EF248A8E9B919C0 /* Pods-TBBasicLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBBasicLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		D3D9C87AD819F3511E5CEE317D83947C /* Pods-TBBasicLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBBasicLib_Example-Info.plist"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		DE755AC7D196AE0B99A1AADC3A6B338A /* Pods-TBBasicLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBBasicLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F1CAB9C83925FBD60DA86E7FD5CBD39E /* TBBasicLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBBasicLib.debug.xcconfig; sourceTree = "<group>"; };
 		F23079269E096454AA49E84E1DD54B74 /* TBBasicLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TBBasicLib-Info.plist"; sourceTree = "<group>"; };
-		F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TBBasicLib; path = TBBasicLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBBasicLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA992171E2EBDF963DBD22959C98EEF2 /* Pods-TBBasicLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBBasicLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,7 @@
 		0781D9E97E5E32F54D031D5C412C2D2D /* TBBasicLib */ = {
 			isa = PBXGroup;
 			children = (
-				1BAA69D79FC1B4EA31830DBF7EC9DEEF /* ReplaceMe.swift */,
+				4BE638832DCB3755007170E2 /* TBColor.swift */,
 				AB1DF35ED09F3CCBEFC1A1F7320B1126 /* Pod */,
 				4F71CD57EF47F325EB29C932CB40CD75 /* Support Files */,
 			);
@@ -140,9 +140,9 @@
 		496F6EA8B61FA4DB2B83362D2D5B0177 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73CDA69626AC000536D0BF1672DC17D8 /* Pods-TBBasicLib_Example */,
-				C3B5AD02718DE6C31AED9484C63D8B4A /* Pods-TBBasicLib_Tests */,
-				F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib */,
+				73CDA69626AC000536D0BF1672DC17D8 /* Pods_TBBasicLib_Example.framework */,
+				C3B5AD02718DE6C31AED9484C63D8B4A /* Pods_TBBasicLib_Tests.framework */,
+				F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 			);
 			name = "Pods-TBBasicLib_Tests";
 			productName = Pods_TBBasicLib_Tests;
-			productReference = C3B5AD02718DE6C31AED9484C63D8B4A /* Pods-TBBasicLib_Tests */;
+			productReference = C3B5AD02718DE6C31AED9484C63D8B4A /* Pods_TBBasicLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		64AC60523C0148E9E2D0818564A7DDE3 /* TBBasicLib */ = {
@@ -287,7 +287,7 @@
 			);
 			name = TBBasicLib;
 			productName = TBBasicLib;
-			productReference = F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib */;
+			productReference = F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FC7206049AE2C939374964ED08D87173 /* Pods-TBBasicLib_Example */ = {
@@ -306,7 +306,7 @@
 			);
 			name = "Pods-TBBasicLib_Example";
 			productName = Pods_TBBasicLib_Example;
-			productReference = 73CDA69626AC000536D0BF1672DC17D8 /* Pods-TBBasicLib_Example */;
+			productReference = 73CDA69626AC000536D0BF1672DC17D8 /* Pods_TBBasicLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,8 +327,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 496F6EA8B61FA4DB2B83362D2D5B0177 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -377,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E44FCDC7EADFAA9CE20B361979B631B /* ReplaceMe.swift in Sources */,
+				4BE638842DCB3755007170E2 /* TBColor.swift in Sources */,
 				1A8FEAF49EAFD1D09C9B384AD8E79DCC /* TBBasicLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,8 +496,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
