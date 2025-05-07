@@ -1,0 +1,16 @@
+PODS:
+  - TBBasicLib (0.1.0)
+
+DEPENDENCIES:
+  - TBBasicLib (from `../`)
+
+EXTERNAL SOURCES:
+  TBBasicLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TBBasicLib: e320bdaa150f4772780548cca1fa248ed680f71e
+
+PODFILE CHECKSUM: cbde5ec86517652efe2bc60a621bd84c0d61e4e7
+
+COCOAPODS: 1.16.2

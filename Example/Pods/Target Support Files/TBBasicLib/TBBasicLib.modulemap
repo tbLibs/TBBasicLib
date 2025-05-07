@@ -1,0 +1,6 @@
+framework module TBBasicLib {
+  umbrella header "TBBasicLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

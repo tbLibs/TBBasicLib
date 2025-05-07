@@ -1,0 +1,6 @@
+framework module Pods_TBBasicLib_Tests {
+  umbrella header "Pods-TBBasicLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
