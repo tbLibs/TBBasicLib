@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		345187318837AD2B6136BF5F /* Pods_TBBasicLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F798384529F8EB78C81EE /* Pods_TBBasicLib_Example.framework */; };
+		4B8D0CB32DCB6C0000D11A4F /* TBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CB22DCB6C0000D11A4F /* TBTabBarController.swift */; };
+		4B8D0CC22DCC811600D11A4F /* TBNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CC12DCC811600D11A4F /* TBNavController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 		2A75B23EAE766F07570DC24E /* Pods-TBBasicLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBBasicLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TBBasicLib_Tests/Pods-TBBasicLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		472AB0AF2ADEA86210414D85 /* Pods-TBBasicLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBBasicLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-TBBasicLib_Tests/Pods-TBBasicLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49198F23DE1983A17EC86014 /* Pods-TBBasicLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBBasicLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-TBBasicLib_Example/Pods-TBBasicLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4B8D0CB22DCB6C0000D11A4F /* TBTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTabBarController.swift; sourceTree = "<group>"; };
+		4B8D0CC12DCC811600D11A4F /* TBNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBNavController.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TBBasicLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBBasicLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				4B8D0CB22DCB6C0000D11A4F /* TBTabBarController.swift */,
+				4B8D0CC12DCC811600D11A4F /* TBNavController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -336,7 +342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				4B8D0CB32DCB6C0000D11A4F /* TBTabBarController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				4B8D0CC22DCC811600D11A4F /* TBNavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +493,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TBBasicLib/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -504,7 +512,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TBBasicLib/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

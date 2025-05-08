@@ -9,21 +9,18 @@
 import UIKit
 import TBBasicLib
 
-class ViewController: UIViewController {
+class ViewController: TBBaseViewController {
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        
-        
+        title = "33333"
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 }
 

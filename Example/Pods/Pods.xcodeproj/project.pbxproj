@@ -8,30 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		1999F6DF6F2D5E78E359B4A1336E9BCE /* Pods-TBBasicLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D62D4A6D72548D27D804234B25707621 /* Pods-TBBasicLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23A9B80705D0BCB4ED8BFE0F896A30F9 /* Bundle+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BDFEDF96EEBD1AD0F88848529E711F /* Bundle+Ex.swift */; };
-		2C2D07BB8BC9C5E9ECFF3027718CD149 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C1BE4AC89CDC21FCDA2998F7F719F4 /* UIView+Ex.swift */; };
-		334EF8E48205BEE4A06D7AB919F39557 /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF2A3382633C722708DD3FBB7B3B48 /* UIColor+Ex.swift */; };
-		35F8582FFE6A99452B04F31CB66B026C /* UINavigationController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A07133B1F7EDF9C6CD00D5252722FC /* UINavigationController+Ex.swift */; };
-		3A94BB481FB3ECAA119AE0F936E417CC /* UIDevice+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CDD94E2882168A8BD0447A1B95BE5 /* UIDevice+Ex.swift */; };
 		409F0FD5355F414FB175A8CDADA3EBDC /* TBBasicLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B36DB571DF2C362BA926B9C6B222181 /* TBBasicLib-dummy.m */; };
-		483F8787CF3FADCD785434D563A2EFC7 /* UIButton+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F7387C33703EBDB62248ECAFB4C09 /* UIButton+Ex.swift */; };
+		4B8D0CA42DCB63C000D11A4F /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0C9E2DCB63C000D11A4F /* UIColor+Ex.swift */; };
+		4B8D0CA52DCB63C000D11A4F /* TRCAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0C9C2DCB63C000D11A4F /* TRCAlertView.swift */; };
+		4B8D0CA62DCB63C000D11A4F /* UIViewController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CA22DCB63C000D11A4F /* UIViewController+Ex.swift */; };
+		4B8D0CA72DCB63C000D11A4F /* UIButton+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0C9D2DCB63C000D11A4F /* UIButton+Ex.swift */; };
+		4B8D0CA82DCB63C000D11A4F /* UINavigationController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CA02DCB63C000D11A4F /* UINavigationController+Ex.swift */; };
+		4B8D0CA92DCB63C000D11A4F /* TBConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0C9A2DCB63C000D11A4F /* TBConst.swift */; };
+		4B8D0CAA2DCB63C000D11A4F /* Toast_Swift+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0C9B2DCB63C000D11A4F /* Toast_Swift+Ex.swift */; };
+		4B8D0CAB2DCB63C000D11A4F /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0C992DCB63C000D11A4F /* String+Ex.swift */; };
+		4B8D0CAC2DCB63C000D11A4F /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CA12DCB63C000D11A4F /* UIView+Ex.swift */; };
+		4B8D0CAD2DCB63C000D11A4F /* UIDevice+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0C9F2DCB63C000D11A4F /* UIDevice+Ex.swift */; };
+		4B8D0CAE2DCB63C000D11A4F /* Bundle+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0C982DCB63C000D11A4F /* Bundle+Ex.swift */; };
+		4B8D0CB92DCC7DA200D11A4F /* TBBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CB62DCC7DA200D11A4F /* TBBaseTabBarController.swift */; };
+		4B8D0CBA2DCC7DA200D11A4F /* TBTabBarable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CB72DCC7DA200D11A4F /* TBTabBarable.swift */; };
+		4B8D0CBE2DCC7E2900D11A4F /* TBBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CBD2DCC7E2900D11A4F /* TBBaseNavigationController.swift */; };
+		4B8D0CC02DCC7F5100D11A4F /* TBNavable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CBF2DCC7F5100D11A4F /* TBNavable.swift */; };
+		4B8D0CC62DCC821100D11A4F /* TBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CC52DCC821100D11A4F /* TBBaseViewController.swift */; };
 		6B545D9A7E3815D6233C827B3BB58F93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A9FECC1FDAD9F26B079096EFC42AB3 /* Foundation.framework */; };
 		8682E35E3DF8AB1F31BEFE9B521F2AE3 /* Pods-TBBasicLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D37A4EBE5225448EF248A8E9B919C0 /* Pods-TBBasicLib_Tests-dummy.m */; };
 		8AFC2D8BA0E82C6C8F725E69CD94F23F /* TBBasicLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA36CCA9B08CD342556BC150FD752C31 /* TBBasicLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B80CB028C3623A15F025244CF87E552 /* UIViewController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590C92F46AF759040ECFC3EDF53F811D /* UIViewController+Ex.swift */; };
 		8D209B394691CB3B979D88F6E1C887F3 /* Pods-TBBasicLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02723DD6CB8551476CBEFAEB82B135 /* Pods-TBBasicLib_Example-dummy.m */; };
 		8FBE37A503A688D77A4B853CF1CA49C8 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E15AC60C991B08D578D75E5D7EABB64 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96EE15F98D60197CA3A11F1BBC1ECAC2 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FCD31C4EE1DA60FB90F8B432CDE1C /* Toast-Swift-dummy.m */; };
 		9BA5761344AB5BA787692F27259F3414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A9FECC1FDAD9F26B079096EFC42AB3 /* Foundation.framework */; };
-		A08DDED3E98967FCDDFD27C006197037 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680474F5C0755F760883D678B361163 /* String+Ex.swift */; };
 		A3EAF0384CDC70A08241777E542B7993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A9FECC1FDAD9F26B079096EFC42AB3 /* Foundation.framework */; };
-		C9AEC1BF9E2CCF9ADC54F4183EA17D27 /* TBConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F2A22DEB36D4DE50DF55638A8DCBE /* TBConst.swift */; };
 		CB8A70BE6A5353B8B152C6A44CC55623 /* Pods-TBBasicLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9BE6AE084816178A468EC504993C052 /* Pods-TBBasicLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4170A26BEFCE7C10B046F8DD032EA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E31BFCE69A3A4BEC13CE3C15C09F41 /* QuartzCore.framework */; };
-		E2F3720CC1BF49758C08D709DC28D6FD /* Toast_Swift+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F322792B20FD3F4655BA50DAD603CAB /* Toast_Swift+Ex.swift */; };
 		E4C6662C6A221413E4CF180B1AEF6435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A9FECC1FDAD9F26B079096EFC42AB3 /* Foundation.framework */; };
 		F95157C8B3661792505651EE016C760D /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318FE758DBBEDD53C43B7374CF4B0EF /* Toast.swift */; };
-		FF83856C3AC798F9331CA88E6F91387B /* TRCAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD83C3DD5E81E89A8C648EEF4BF865C /* TRCAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,53 +76,58 @@
 		17AC306DE9E90728B2E73AAA4675ACDE /* Pods-TBBasicLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBBasicLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E15AC60C991B08D578D75E5D7EABB64 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
 		2DE7D7B8536184BB06229C9B7240384D /* Pods-TBBasicLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBBasicLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2F322792B20FD3F4655BA50DAD603CAB /* Toast_Swift+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Toast_Swift+Ex.swift"; path = "TBBasicLib/Classes/Toast_Swift+Ex.swift"; sourceTree = "<group>"; };
 		2F50B18C74D2D97745E4801987A30384 /* Toast-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Swift-Info.plist"; sourceTree = "<group>"; };
 		3B2845562E646CF443B9CC526C2668A3 /* Toast-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		3D3526175535E89B9737DA5983B17ADB /* TBBasicLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBBasicLib.release.xcconfig; sourceTree = "<group>"; };
-		3D7F7387C33703EBDB62248ECAFB4C09 /* UIButton+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Ex.swift"; path = "TBBasicLib/Classes/UIButton+Ex.swift"; sourceTree = "<group>"; };
 		4007A72BDCD28826D29D220D8AF11806 /* Toast-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		44E31BFCE69A3A4BEC13CE3C15C09F41 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		466E6D6901B284C189555D58C1CE4F57 /* Pods-TBBasicLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBBasicLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		5680474F5C0755F760883D678B361163 /* String+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Ex.swift"; path = "TBBasicLib/Classes/String+Ex.swift"; sourceTree = "<group>"; };
-		590C92F46AF759040ECFC3EDF53F811D /* UIViewController+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Ex.swift"; path = "TBBasicLib/Classes/UIViewController+Ex.swift"; sourceTree = "<group>"; };
+		4B8D0C982DCB63C000D11A4F /* Bundle+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ex.swift"; sourceTree = "<group>"; };
+		4B8D0C992DCB63C000D11A4F /* String+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ex.swift"; sourceTree = "<group>"; };
+		4B8D0C9A2DCB63C000D11A4F /* TBConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBConst.swift; sourceTree = "<group>"; };
+		4B8D0C9B2DCB63C000D11A4F /* Toast_Swift+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Toast_Swift+Ex.swift"; sourceTree = "<group>"; };
+		4B8D0C9C2DCB63C000D11A4F /* TRCAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRCAlertView.swift; sourceTree = "<group>"; };
+		4B8D0C9D2DCB63C000D11A4F /* UIButton+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ex.swift"; sourceTree = "<group>"; };
+		4B8D0C9E2DCB63C000D11A4F /* UIColor+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ex.swift"; sourceTree = "<group>"; };
+		4B8D0C9F2DCB63C000D11A4F /* UIDevice+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Ex.swift"; sourceTree = "<group>"; };
+		4B8D0CA02DCB63C000D11A4F /* UINavigationController+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ex.swift"; sourceTree = "<group>"; };
+		4B8D0CA12DCB63C000D11A4F /* UIView+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ex.swift"; sourceTree = "<group>"; };
+		4B8D0CA22DCB63C000D11A4F /* UIViewController+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ex.swift"; sourceTree = "<group>"; };
+		4B8D0CB62DCC7DA200D11A4F /* TBBaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBBaseTabBarController.swift; sourceTree = "<group>"; };
+		4B8D0CB72DCC7DA200D11A4F /* TBTabBarable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTabBarable.swift; sourceTree = "<group>"; };
+		4B8D0CBD2DCC7E2900D11A4F /* TBBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBBaseNavigationController.swift; sourceTree = "<group>"; };
+		4B8D0CBF2DCC7F5100D11A4F /* TBNavable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBNavable.swift; sourceTree = "<group>"; };
+		4B8D0CC52DCC821100D11A4F /* TBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBBaseViewController.swift; sourceTree = "<group>"; };
 		5C1C4B3F9E0750DF1CEEB7571B6EDE41 /* Pods-TBBasicLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBBasicLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5FD83C3DD5E81E89A8C648EEF4BF865C /* TRCAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TRCAlertView.swift; path = TBBasicLib/Classes/TRCAlertView.swift; sourceTree = "<group>"; };
 		6940974B9C6472A6F9DB7481A5696572 /* Pods-TBBasicLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBBasicLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B36DB571DF2C362BA926B9C6B222181 /* TBBasicLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBBasicLib-dummy.m"; sourceTree = "<group>"; };
-		73CDA69626AC000536D0BF1672DC17D8 /* Pods-TBBasicLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TBBasicLib_Example"; path = Pods_TBBasicLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76C1BE4AC89CDC21FCDA2998F7F719F4 /* UIView+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Ex.swift"; path = "TBBasicLib/Classes/UIView+Ex.swift"; sourceTree = "<group>"; };
+		73CDA69626AC000536D0BF1672DC17D8 /* Pods_TBBasicLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBBasicLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		825B95930816FF3991519AC0ED095A7F /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
-		86BDFEDF96EEBD1AD0F88848529E711F /* Bundle+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Ex.swift"; path = "TBBasicLib/Classes/Bundle+Ex.swift"; sourceTree = "<group>"; };
 		8979F06C4C82ABE2B002C5F79AEE112C /* Pods-TBBasicLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBBasicLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8A8E6422D26C352FCD8032B9FAFEA9D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8A8E6422D26C352FCD8032B9FAFEA9D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		90D6D8B1460CFF5C88BEAE63D3860855 /* TBBasicLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBBasicLib.modulemap; sourceTree = "<group>"; };
 		98346B3BC279B2EBA066DE3AC9FF21C6 /* TBBasicLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TBBasicLib-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9BE6AE084816178A468EC504993C052 /* Pods-TBBasicLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBBasicLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AA36CCA9B08CD342556BC150FD752C31 /* TBBasicLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBBasicLib-umbrella.h"; sourceTree = "<group>"; };
-		B2EF2A3382633C722708DD3FBB7B3B48 /* UIColor+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Ex.swift"; path = "TBBasicLib/Classes/UIColor+Ex.swift"; sourceTree = "<group>"; };
 		B3B01D0504A63F485E54C11102C46FD3 /* Pods-TBBasicLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBBasicLib_Example.modulemap"; sourceTree = "<group>"; };
 		BE02723DD6CB8551476CBEFAEB82B135 /* Pods-TBBasicLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBBasicLib_Example-dummy.m"; sourceTree = "<group>"; };
 		BF1E10D2888B2F7C3435BFF6A7F4667A /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
-		BF7DBF377E863BF32FE94594E24F2BEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C3B5AD02718DE6C31AED9484C63D8B4A /* Pods-TBBasicLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TBBasicLib_Tests"; path = Pods_TBBasicLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7DBF377E863BF32FE94594E24F2BEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C3B5AD02718DE6C31AED9484C63D8B4A /* Pods_TBBasicLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBBasicLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B35EFB2AED0CFE9D6B9A09D91E0C86 /* Pods-TBBasicLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBBasicLib_Tests.modulemap"; sourceTree = "<group>"; };
 		C7D37A4EBE5225448EF248A8E9B919C0 /* Pods-TBBasicLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBBasicLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		CC8CDD94E2882168A8BD0447A1B95BE5 /* UIDevice+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+Ex.swift"; path = "TBBasicLib/Classes/UIDevice+Ex.swift"; sourceTree = "<group>"; };
 		CF5C8C06AD58441C369A25CB1A07C926 /* TBBasicLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBBasicLib-prefix.pch"; sourceTree = "<group>"; };
 		D3A9FECC1FDAD9F26B079096EFC42AB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D3D9C87AD819F3511E5CEE317D83947C /* Pods-TBBasicLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBBasicLib_Example-Info.plist"; sourceTree = "<group>"; };
-		D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Toast-Swift"; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62D4A6D72548D27D804234B25707621 /* Pods-TBBasicLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBBasicLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		D7A07133B1F7EDF9C6CD00D5252722FC /* UINavigationController+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Ex.swift"; path = "TBBasicLib/Classes/UINavigationController+Ex.swift"; sourceTree = "<group>"; };
 		D920DAA2F9B3CCA81356AE755A9D4137 /* Pods-TBBasicLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBBasicLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DB50E45ABE217CD2025BB9EFDCEF466B /* TBBasicLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBBasicLib.debug.xcconfig; sourceTree = "<group>"; };
 		DE755AC7D196AE0B99A1AADC3A6B338A /* Pods-TBBasicLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBBasicLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E18F2A22DEB36D4DE50DF55638A8DCBE /* TBConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TBConst.swift; path = TBBasicLib/Classes/TBConst.swift; sourceTree = "<group>"; };
-		EF16F59CA00F976DFB4C0B72B85C7EC2 /* TBBasicLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TBBasicLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF16F59CA00F976DFB4C0B72B85C7EC2 /* TBBasicLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TBBasicLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F318FE758DBBEDD53C43B7374CF4B0EF /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
-		F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TBBasicLib; path = TBBasicLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBBasicLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA992171E2EBDF963DBD22959C98EEF2 /* Pods-TBBasicLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBBasicLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -218,13 +228,69 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		4B8D0CA32DCB63C000D11A4F /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				4B8D0C982DCB63C000D11A4F /* Bundle+Ex.swift */,
+				4B8D0C992DCB63C000D11A4F /* String+Ex.swift */,
+				4B8D0C9A2DCB63C000D11A4F /* TBConst.swift */,
+				4B8D0C9B2DCB63C000D11A4F /* Toast_Swift+Ex.swift */,
+				4B8D0C9C2DCB63C000D11A4F /* TRCAlertView.swift */,
+				4B8D0C9D2DCB63C000D11A4F /* UIButton+Ex.swift */,
+				4B8D0C9E2DCB63C000D11A4F /* UIColor+Ex.swift */,
+				4B8D0C9F2DCB63C000D11A4F /* UIDevice+Ex.swift */,
+				4B8D0CA02DCB63C000D11A4F /* UINavigationController+Ex.swift */,
+				4B8D0CA12DCB63C000D11A4F /* UIView+Ex.swift */,
+				4B8D0CA22DCB63C000D11A4F /* UIViewController+Ex.swift */,
+			);
+			name = extension;
+			path = TBBasicLib/Classes/extension;
+			sourceTree = "<group>";
+		};
+		4B8D0CB02DCB6AFE00D11A4F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4B8D0CBB2DCC7DEC00D11A4F /* BaseNavController */,
+				4B8D0CBC2DCC7DEC00D11A4F /* BaseViewController */,
+				4B8D0CB82DCC7DA200D11A4F /* TabBarController */,
+			);
+			name = Base;
+			path = TBBasicLib/Classes/Base;
+			sourceTree = "<group>";
+		};
+		4B8D0CB82DCC7DA200D11A4F /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4B8D0CB62DCC7DA200D11A4F /* TBBaseTabBarController.swift */,
+				4B8D0CB72DCC7DA200D11A4F /* TBTabBarable.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		4B8D0CBB2DCC7DEC00D11A4F /* BaseNavController */ = {
+			isa = PBXGroup;
+			children = (
+				4B8D0CBD2DCC7E2900D11A4F /* TBBaseNavigationController.swift */,
+				4B8D0CBF2DCC7F5100D11A4F /* TBNavable.swift */,
+			);
+			path = BaseNavController;
+			sourceTree = "<group>";
+		};
+		4B8D0CBC2DCC7DEC00D11A4F /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B8D0CC52DCC821100D11A4F /* TBBaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
 		60FEC8A13CE7191975DA2547F43A258C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73CDA69626AC000536D0BF1672DC17D8 /* Pods-TBBasicLib_Example */,
-				C3B5AD02718DE6C31AED9484C63D8B4A /* Pods-TBBasicLib_Tests */,
-				F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib */,
-				D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast-Swift */,
+				73CDA69626AC000536D0BF1672DC17D8 /* Pods_TBBasicLib_Example.framework */,
+				C3B5AD02718DE6C31AED9484C63D8B4A /* Pods_TBBasicLib_Tests.framework */,
+				F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib.framework */,
+				D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,17 +337,8 @@
 		B7BA8D884E5781E622D250E4589B343A /* TBBasicLib */ = {
 			isa = PBXGroup;
 			children = (
-				86BDFEDF96EEBD1AD0F88848529E711F /* Bundle+Ex.swift */,
-				5680474F5C0755F760883D678B361163 /* String+Ex.swift */,
-				E18F2A22DEB36D4DE50DF55638A8DCBE /* TBConst.swift */,
-				2F322792B20FD3F4655BA50DAD603CAB /* Toast_Swift+Ex.swift */,
-				5FD83C3DD5E81E89A8C648EEF4BF865C /* TRCAlertView.swift */,
-				3D7F7387C33703EBDB62248ECAFB4C09 /* UIButton+Ex.swift */,
-				B2EF2A3382633C722708DD3FBB7B3B48 /* UIColor+Ex.swift */,
-				CC8CDD94E2882168A8BD0447A1B95BE5 /* UIDevice+Ex.swift */,
-				D7A07133B1F7EDF9C6CD00D5252722FC /* UINavigationController+Ex.swift */,
-				76C1BE4AC89CDC21FCDA2998F7F719F4 /* UIView+Ex.swift */,
-				590C92F46AF759040ECFC3EDF53F811D /* UIViewController+Ex.swift */,
+				4B8D0CB02DCB6AFE00D11A4F /* Base */,
+				4B8D0CA32DCB63C000D11A4F /* extension */,
 				33BA2FFEFCBEA8A83AA12E1F96C78E67 /* Pod */,
 				61B3D5654C00121B8CDCF86E2C06E67F /* Support Files */,
 			);
@@ -323,7 +380,6 @@
 				F318FE758DBBEDD53C43B7374CF4B0EF /* Toast.swift */,
 				ADB41ECB626BC7FC84F0B17847BEB04F /* Support Files */,
 			);
-			name = "Toast-Swift";
 			path = "Toast-Swift";
 			sourceTree = "<group>";
 		};
@@ -381,7 +437,7 @@
 			);
 			name = "Pods-TBBasicLib_Tests";
 			productName = Pods_TBBasicLib_Tests;
-			productReference = C3B5AD02718DE6C31AED9484C63D8B4A /* Pods-TBBasicLib_Tests */;
+			productReference = C3B5AD02718DE6C31AED9484C63D8B4A /* Pods_TBBasicLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		64AC60523C0148E9E2D0818564A7DDE3 /* TBBasicLib */ = {
@@ -400,7 +456,7 @@
 			);
 			name = TBBasicLib;
 			productName = TBBasicLib;
-			productReference = F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib */;
+			productReference = F58C6B12674C2DC744D38B9119DBD6F6 /* TBBasicLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */ = {
@@ -418,7 +474,7 @@
 			);
 			name = "Toast-Swift";
 			productName = Toast_Swift;
-			productReference = D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast-Swift */;
+			productReference = D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FC7206049AE2C939374964ED08D87173 /* Pods-TBBasicLib_Example */ = {
@@ -438,7 +494,7 @@
 			);
 			name = "Pods-TBBasicLib_Example";
 			productName = Pods_TBBasicLib_Example;
-			productReference = 73CDA69626AC000536D0BF1672DC17D8 /* Pods-TBBasicLib_Example */;
+			productReference = 73CDA69626AC000536D0BF1672DC17D8 /* Pods_TBBasicLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -459,8 +515,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 60FEC8A13CE7191975DA2547F43A258C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -509,18 +563,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23A9B80705D0BCB4ED8BFE0F896A30F9 /* Bundle+Ex.swift in Sources */,
-				A08DDED3E98967FCDDFD27C006197037 /* String+Ex.swift in Sources */,
 				409F0FD5355F414FB175A8CDADA3EBDC /* TBBasicLib-dummy.m in Sources */,
-				C9AEC1BF9E2CCF9ADC54F4183EA17D27 /* TBConst.swift in Sources */,
-				E2F3720CC1BF49758C08D709DC28D6FD /* Toast_Swift+Ex.swift in Sources */,
-				FF83856C3AC798F9331CA88E6F91387B /* TRCAlertView.swift in Sources */,
-				483F8787CF3FADCD785434D563A2EFC7 /* UIButton+Ex.swift in Sources */,
-				334EF8E48205BEE4A06D7AB919F39557 /* UIColor+Ex.swift in Sources */,
-				3A94BB481FB3ECAA119AE0F936E417CC /* UIDevice+Ex.swift in Sources */,
-				35F8582FFE6A99452B04F31CB66B026C /* UINavigationController+Ex.swift in Sources */,
-				2C2D07BB8BC9C5E9ECFF3027718CD149 /* UIView+Ex.swift in Sources */,
-				8B80CB028C3623A15F025244CF87E552 /* UIViewController+Ex.swift in Sources */,
+				4B8D0CC62DCC821100D11A4F /* TBBaseViewController.swift in Sources */,
+				4B8D0CA42DCB63C000D11A4F /* UIColor+Ex.swift in Sources */,
+				4B8D0CA52DCB63C000D11A4F /* TRCAlertView.swift in Sources */,
+				4B8D0CA62DCB63C000D11A4F /* UIViewController+Ex.swift in Sources */,
+				4B8D0CA72DCB63C000D11A4F /* UIButton+Ex.swift in Sources */,
+				4B8D0CA82DCB63C000D11A4F /* UINavigationController+Ex.swift in Sources */,
+				4B8D0CA92DCB63C000D11A4F /* TBConst.swift in Sources */,
+				4B8D0CAA2DCB63C000D11A4F /* Toast_Swift+Ex.swift in Sources */,
+				4B8D0CAB2DCB63C000D11A4F /* String+Ex.swift in Sources */,
+				4B8D0CC02DCC7F5100D11A4F /* TBNavable.swift in Sources */,
+				4B8D0CAC2DCB63C000D11A4F /* UIView+Ex.swift in Sources */,
+				4B8D0CB92DCC7DA200D11A4F /* TBBaseTabBarController.swift in Sources */,
+				4B8D0CBA2DCC7DA200D11A4F /* TBTabBarable.swift in Sources */,
+				4B8D0CBE2DCC7E2900D11A4F /* TBBaseNavigationController.swift in Sources */,
+				4B8D0CAD2DCB63C000D11A4F /* UIDevice+Ex.swift in Sources */,
+				4B8D0CAE2DCB63C000D11A4F /* Bundle+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,8 +835,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

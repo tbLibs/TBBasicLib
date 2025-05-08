@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TBBasicLib
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: CGRect(x: 0, y: 0, width: KWidth, height: KHeight))
+        window?.makeKeyAndVisible()
+        
+        window?.rootViewController = TBTabBarController.shared
+        
         return true
     }
 
