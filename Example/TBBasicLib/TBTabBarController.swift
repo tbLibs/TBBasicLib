@@ -28,15 +28,6 @@ class TBTabBarController: TBBaseTabBarController {
     }
     
     
-    override var tabBarViewControllers: [TBTabBarVCModel] {
-        (0...3).map {
-            TBTabBarVCModel(vc: ViewController(),
-                            title: "\($0)12",
-                            normalImage: UIImage(systemName: "square.and.arrow.up") ?? UIImage(),
-                            selectedImage: UIImage(systemName: "square.and.arrow.up") ?? UIImage(),
-                            navType: TBNavController.self)
-        }
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

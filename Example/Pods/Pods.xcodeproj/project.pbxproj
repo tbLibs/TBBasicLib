@@ -25,6 +25,9 @@
 		4B8D0CBE2DCC7E2900D11A4F /* TBBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CBD2DCC7E2900D11A4F /* TBBaseNavigationController.swift */; };
 		4B8D0CC02DCC7F5100D11A4F /* TBNavable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CBF2DCC7F5100D11A4F /* TBNavable.swift */; };
 		4B8D0CC62DCC821100D11A4F /* TBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D0CC52DCC821100D11A4F /* TBBaseViewController.swift */; };
+		4BF598C52DCCB60A001BEDE1 /* TBReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF598C32DCCB60A001BEDE1 /* TBReachabilityManager.swift */; };
+		4BF598C72DCCB8E1001BEDE1 /* TBBaseManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF598C62DCCB8E1001BEDE1 /* TBBaseManage.swift */; };
+		4BF598C92DCCBA82001BEDE1 /* TBAuthority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF598C82DCCBA82001BEDE1 /* TBAuthority.swift */; };
 		6B545D9A7E3815D6233C827B3BB58F93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A9FECC1FDAD9F26B079096EFC42AB3 /* Foundation.framework */; };
 		8682E35E3DF8AB1F31BEFE9B521F2AE3 /* Pods-TBBasicLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D37A4EBE5225448EF248A8E9B919C0 /* Pods-TBBasicLib_Tests-dummy.m */; };
 		8AFC2D8BA0E82C6C8F725E69CD94F23F /* TBBasicLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA36CCA9B08CD342556BC150FD752C31 /* TBBasicLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -98,6 +101,9 @@
 		4B8D0CBD2DCC7E2900D11A4F /* TBBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBBaseNavigationController.swift; sourceTree = "<group>"; };
 		4B8D0CBF2DCC7F5100D11A4F /* TBNavable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBNavable.swift; sourceTree = "<group>"; };
 		4B8D0CC52DCC821100D11A4F /* TBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBBaseViewController.swift; sourceTree = "<group>"; };
+		4BF598C32DCCB60A001BEDE1 /* TBReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBReachabilityManager.swift; sourceTree = "<group>"; };
+		4BF598C62DCCB8E1001BEDE1 /* TBBaseManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBBaseManage.swift; sourceTree = "<group>"; };
+		4BF598C82DCCBA82001BEDE1 /* TBAuthority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBAuthority.swift; sourceTree = "<group>"; };
 		5C1C4B3F9E0750DF1CEEB7571B6EDE41 /* Pods-TBBasicLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBBasicLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6940974B9C6472A6F9DB7481A5696572 /* Pods-TBBasicLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBBasicLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B36DB571DF2C362BA926B9C6B222181 /* TBBasicLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBBasicLib-dummy.m"; sourceTree = "<group>"; };
@@ -107,7 +113,7 @@
 		8A8E6422D26C352FCD8032B9FAFEA9D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		90D6D8B1460CFF5C88BEAE63D3860855 /* TBBasicLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBBasicLib.modulemap; sourceTree = "<group>"; };
 		98346B3BC279B2EBA066DE3AC9FF21C6 /* TBBasicLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TBBasicLib-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
 		A9BE6AE084816178A468EC504993C052 /* Pods-TBBasicLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBBasicLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AA36CCA9B08CD342556BC150FD752C31 /* TBBasicLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBBasicLib-umbrella.h"; sourceTree = "<group>"; };
 		B3B01D0504A63F485E54C11102C46FD3 /* Pods-TBBasicLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBBasicLib_Example.modulemap"; sourceTree = "<group>"; };
@@ -284,6 +290,17 @@
 			path = BaseViewController;
 			sourceTree = "<group>";
 		};
+		4BF598C42DCCB60A001BEDE1 /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+				4BF598C32DCCB60A001BEDE1 /* TBReachabilityManager.swift */,
+				4BF598C62DCCB8E1001BEDE1 /* TBBaseManage.swift */,
+				4BF598C82DCCBA82001BEDE1 /* TBAuthority.swift */,
+			);
+			name = Manage;
+			path = TBBasicLib/Classes/Manage;
+			sourceTree = "<group>";
+		};
 		60FEC8A13CE7191975DA2547F43A258C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +354,7 @@
 		B7BA8D884E5781E622D250E4589B343A /* TBBasicLib */ = {
 			isa = PBXGroup;
 			children = (
+				4BF598C42DCCB60A001BEDE1 /* Manage */,
 				4B8D0CB02DCB6AFE00D11A4F /* Base */,
 				4B8D0CA32DCB63C000D11A4F /* extension */,
 				33BA2FFEFCBEA8A83AA12E1F96C78E67 /* Pod */,
@@ -570,6 +588,7 @@
 				4B8D0CA62DCB63C000D11A4F /* UIViewController+Ex.swift in Sources */,
 				4B8D0CA72DCB63C000D11A4F /* UIButton+Ex.swift in Sources */,
 				4B8D0CA82DCB63C000D11A4F /* UINavigationController+Ex.swift in Sources */,
+				4BF598C92DCCBA82001BEDE1 /* TBAuthority.swift in Sources */,
 				4B8D0CA92DCB63C000D11A4F /* TBConst.swift in Sources */,
 				4B8D0CAA2DCB63C000D11A4F /* Toast_Swift+Ex.swift in Sources */,
 				4B8D0CAB2DCB63C000D11A4F /* String+Ex.swift in Sources */,
@@ -578,7 +597,9 @@
 				4B8D0CB92DCC7DA200D11A4F /* TBBaseTabBarController.swift in Sources */,
 				4B8D0CBA2DCC7DA200D11A4F /* TBTabBarable.swift in Sources */,
 				4B8D0CBE2DCC7E2900D11A4F /* TBBaseNavigationController.swift in Sources */,
+				4BF598C72DCCB8E1001BEDE1 /* TBBaseManage.swift in Sources */,
 				4B8D0CAD2DCB63C000D11A4F /* UIDevice+Ex.swift in Sources */,
+				4BF598C52DCCB60A001BEDE1 /* TBReachabilityManager.swift in Sources */,
 				4B8D0CAE2DCB63C000D11A4F /* Bundle+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -728,7 +749,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/TBBasicLib/TBBasicLib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TBBasicLib/TBBasicLib.modulemap";
 				PRODUCT_MODULE_NAME = TBBasicLib;
@@ -763,7 +784,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/TBBasicLib/TBBasicLib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TBBasicLib/TBBasicLib.modulemap";
 				PRODUCT_MODULE_NAME = TBBasicLib;
