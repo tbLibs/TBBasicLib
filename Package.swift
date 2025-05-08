@@ -17,7 +17,9 @@ let package = Package(
     targets: [
         .target(
             name: "TBBasicLib",
-            dependencies: ["Toast-Swift"],
+            dependencies: [
+                .product(name: "Toast", package: "Toast-Swift")
+            ],
             path: "TBBasicLib/Classes"
         )
     ],
