@@ -6,7 +6,12 @@
 //
 
 import Foundation
+
+#if canImport(Toast)
+import Toast
+#elseif canImport(Toast_Swift)
 import Toast_Swift
+#endif
 
 
 public class ToastSwiftManage {
