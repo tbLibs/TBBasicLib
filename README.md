@@ -19,6 +19,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'TBBasicLib'
 ```
+SPM
+
+`PROJECT > Package Dependencies > + > https://github.com/tbLibs/TBBasicLib.git`
 
 ## Author
 
