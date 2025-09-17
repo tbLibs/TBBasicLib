@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBBasicLib'
-  s.version          = '0.1.7'
+  s.version          = '0.2.0'
   s.summary          = '一个基础库'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/tbLibs/TBBasicLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'TBBasicLib/Classes/**/*'
   

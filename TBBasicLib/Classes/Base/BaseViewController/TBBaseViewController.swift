@@ -43,16 +43,6 @@ open class TBBaseViewController: UIViewController {
         }
     }
     
-    open override func present(_ viewControllerToPresent: UIViewController, animated flag: Bool, completion: (() -> Void)? = nil) {
-        viewControllerToPresent.modalPresentationStyle = .fullScreen
-        super.present(viewControllerToPresent, animated: flag, completion: completion)
-        if #available(iOS 13.0, *) {
-            viewControllerToPresent.isModalInPresentation = true
-        } else {
-            // Fallback on earlier versions
-        }
-    }
-    
 }
 // MARK: UIGestureRecognizerDelegate
 extension TBBaseViewController: UIGestureRecognizerDelegate {
