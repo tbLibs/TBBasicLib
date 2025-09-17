@@ -1,6 +1,6 @@
 {
   "name": "TBBasicLib",
-  "version": "0.1.7",
+  "version": "0.2.1",
   "summary": "一个基础库",
   "description": "TODO: Add long description of the pod here.",
   "swift_versions": "5.0",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/tbLibs/TBBasicLib.git",
-    "tag": "0.1.7"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "15.0"

@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "TBBasicLib",
     platforms: [
-        .iOS(.v15)
+        .iOS("15.0")
     ],
     products: [
         .library(

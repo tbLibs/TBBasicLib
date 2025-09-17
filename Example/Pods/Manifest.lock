@@ -1,5 +1,5 @@
 PODS:
-  - TBBasicLib (0.1.7):
+  - TBBasicLib (0.2.1):
     - Toast-Swift
   - Toast-Swift (5.0.1)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TBBasicLib: 819c231e4a863bc73a08c20b247a91c408a612a9
+  TBBasicLib: 4359256ee24f41a9c7a7d30d02604a9639457c49
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
 PODFILE CHECKSUM: ef4825e87211ebc58cf69d3470e538dbe62774e0
