@@ -42,20 +42,10 @@ public let KStatusBarHeight: CGFloat = {
 
 /// 获取底部安全距离
 public let KBottomHeight: CGFloat = {
-    if #available(iOS 13.0, *) {
-        return UIApplication.shared
-            .connectedScenes
-            .compactMap { $0 as? UIWindowScene }
-            .flatMap { $0.windows }
-            .first { $0.isKeyWindow }?
-            .safeAreaInsets.bottom ?? 0
-    } else {
-        if #available(iOS 11.0, *) {
-            return UIApplication.shared.keyWindow?.safeAreaInsets.bottom ?? 0
-        } else {
-            return 0
-        }
-    }
+    return UIApplication.shared
+        .connectedScenes
+        .compactMap { $0 as? UIWindowScene }
+        .flatMap { $0.windows }
+        .first { $0.isKeyWindow }?
+        .safeAreaInsets.bottom ?? 0
 }()
-
-
