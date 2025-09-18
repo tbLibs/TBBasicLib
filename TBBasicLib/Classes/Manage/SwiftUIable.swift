@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-protocol SwiftUIable {
+public protocol SwiftUIable {
     
     /// 为UIKit的VC设置swiftUI页面
     /// - Parameter swiftUIView: swiftUI的页面

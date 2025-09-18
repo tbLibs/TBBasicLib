@@ -10,14 +10,9 @@ import UIKit
 import TBBasicLib
 
 class ViewController: TBBaseViewController {
-    
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        title = "33333"
         
         
     }
