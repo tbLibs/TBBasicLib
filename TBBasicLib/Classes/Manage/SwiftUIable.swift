@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-protocol SwiftUIable {
+public protocol SwiftUIable {
     
     /// 为UIKit的VC设置swiftUI页面
     /// - Parameter swiftUIView: swiftUI的页面
@@ -16,9 +16,9 @@ protocol SwiftUIable {
     
 }
 
-extension SwiftUIable where Self: UIViewController {
+public extension SwiftUIable where Self: UIViewController {
     
-    func setSwiftUIView<Content: View>(swiftUIView: Content) {
+    public func setSwiftUIView<Content: View>(swiftUIView: Content) {
         let hostingController = UIHostingController(rootView: swiftUIView)
         hostingController.view.frame = view.bounds
         // 添加为子控制器

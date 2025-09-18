@@ -10,7 +10,7 @@ import Network
 import CoreTelephony
 import SystemConfiguration.CaptiveNetwork
 
-enum NetworkType: String {
+public enum NetworkType: String {
     case wifi = "wifi"
     case g2 = "2G"
     case g3 = "3G"
@@ -20,8 +20,8 @@ enum NetworkType: String {
     case unknown = "unKnown"
 }
 
-class TBReachabilityManager {
-    static let shared = TBReachabilityManager()
+public class TBReachabilityManager {
+    public static let shared = TBReachabilityManager()
     
     private let monitor = NWPathMonitor()
     private let telephonyInfo = CTTelephonyNetworkInfo()
@@ -35,7 +35,7 @@ class TBReachabilityManager {
         monitor.start(queue: DispatchQueue.global(qos: .background))
     }
     
-    func getCurrentNetworkType() -> NetworkType {
+    public func getCurrentNetworkType() -> NetworkType {
         currentNetworkType
     }
     
