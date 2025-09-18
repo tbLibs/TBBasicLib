@@ -29,39 +29,6 @@ public class TBBaseManage {
         return String(timestamp)
     }
     
-    /// 获取通讯录
-    public func fetchContacts(_  callBack: @escaping (([CNContact])->())) {
-        Authority.requestContactsAccess { success in
-            if success {
-                //获取Fetch,并且指定要获取联系人中的什么属性
-                let keys = [CNContactGivenNameKey,
-                            CNContactFamilyNameKey,
-                            CNContactPhoneNumbersKey] as [CNKeyDescriptor]
-                //创建通讯录对象
-                let store = CNContactStore()
-                //创建请求对象
-                //需要传入一个(keysToFetch: [CNKeyDescriptor]) 包含CNKeyDescriptor类型的数组
-                let request = CNContactFetchRequest(keysToFetch: keys as [CNKeyDescriptor])
-                
-                var contactArr = [CNContact]()
-                
-                DispatchQueue.global(qos: .userInitiated).async {
-                    debugPrint("异步获取")
-                    //遍历所有联系人
-                    do {
-                        try store.enumerateContacts(with: request, usingBlock: {(contact : CNContact, stop :UnsafeMutablePointer<ObjCBool>)-> Void in
-                            contactArr.append(contact)
-                        })
-                        callBack(contactArr)
-                    } catch {
-                        callBack([])
-                        debugPrint(error.localizedDescription)
-                    }
-                }
-            }
-        }
-    }
-    
     /// 获取电池信息
     public func getBatteryInfo() -> Int {
         UIDevice.current.isBatteryMonitoringEnabled = true
