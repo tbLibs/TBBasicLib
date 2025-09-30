@@ -8,6 +8,10 @@
 import Foundation
 import UIKit
 
+public enum GradientDirection {
+    case topToBottom, leftToRight, custom(startPoint: CGPoint, endPoint: CGPoint)
+}
+
 public extension UIView {
     
     /// 为视图添加内阴影
@@ -40,6 +44,23 @@ public extension UIView {
     /// 设置渐变色背景（需在布局完成后调用）
     func setGradientBackground(_ colors: [UIColor] = [.white, .black]) {
         self.setGradientBackground(colors, startPoint: CGPoint(x: 0.25, y: 0.5), endPoint: CGPoint(x: 0.75, y: 0.5))
+    }
+    
+    func setGradientBackground(_ colors: [UIColor], direction: GradientDirection = .leftToRight) {
+        var startPoint: CGPoint = .zero
+        var endPoint: CGPoint = .zero
+        switch direction {
+        case .topToBottom:
+            startPoint = CGPoint(x: 0.5, y: 0.0)
+            endPoint = CGPoint(x: 0.5, y: 1.0)
+        case .leftToRight:
+            startPoint = CGPoint(x: 0.25, y: 0.5)
+            endPoint = CGPoint(x: 0.75, y: 0.5)
+        case .custom(let startPointp, let endPointp):
+            startPoint = startPointp
+            endPoint = endPointp
+        }
+        self.setGradientBackground(colors, startPoint: startPoint, endPoint: endPoint)
     }
     
     /// 清除渐变色背景
