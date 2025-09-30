@@ -16,6 +16,7 @@
 		3205C3E5E59E1C730D680495B3F0A926 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318FE758DBBEDD53C43B7374CF4B0EF /* Toast.swift */; };
 		3D25434E4344D64C1C695776D4D1B4D1 /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34739CC5890B201FB539894A707286F7 /* UIColor+Ex.swift */; };
 		44FE61871EBE288417B82A6AF54468AF /* TBBaseManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F63A0FE174299D7119D87115D4E94B /* TBBaseManage.swift */; };
+		4B6F14352E8B8D6600B7555B /* Color+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F14342E8B8D6600B7555B /* Color+Ex.swift */; };
 		4E3B44BA5AA5C3CB9F81E74063503C8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E31BFCE69A3A4BEC13CE3C15C09F41 /* QuartzCore.framework */; };
 		54421592CEA6FFBEBFB93001C5E69259 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D531B0D94802F2345168C95C65AE1E2F /* UIView+Ex.swift */; };
 		58DFDDC3536CB72FDDBEBFC968D5B1FB /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FCD31C4EE1DA60FB90F8B432CDE1C /* Toast-Swift-dummy.m */; };
@@ -92,6 +93,7 @@
 		44E31BFCE69A3A4BEC13CE3C15C09F41 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		466E6D6901B284C189555D58C1CE4F57 /* Pods-TBBasicLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBBasicLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		472B1953D70C2C37ADF805BF0F061A74 /* DDUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DDUserDefaults.swift; sourceTree = "<group>"; };
+		4B6F14342E8B8D6600B7555B /* Color+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ex.swift"; sourceTree = "<group>"; };
 		53F63A0FE174299D7119D87115D4E94B /* TBBaseManage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TBBaseManage.swift; sourceTree = "<group>"; };
 		56E0041FCEC3F2C3EE60FC9D6FFBE31C /* UINavigationController+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ex.swift"; sourceTree = "<group>"; };
 		5C1C4B3F9E0750DF1CEEB7571B6EDE41 /* Pods-TBBasicLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBBasicLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 		7545B62187122796421CA41014AF14CB /* Manage */ = {
 			isa = PBXGroup;
 			children = (
+				4B6F14342E8B8D6600B7555B /* Color+Ex.swift */,
 				472B1953D70C2C37ADF805BF0F061A74 /* DDUserDefaults.swift */,
 				7AED58CF66E0762520F6F0C2C290AB01 /* SwiftUIable.swift */,
 				53F63A0FE174299D7119D87115D4E94B /* TBBaseManage.swift */,
@@ -618,6 +621,7 @@
 				FAAFB05D100B09804C6FB7DDB5EE6A53 /* UIButton+Ex.swift in Sources */,
 				3D25434E4344D64C1C695776D4D1B4D1 /* UIColor+Ex.swift in Sources */,
 				9FEF85E7473DAD498E792057315FE754 /* UIDevice+Ex.swift in Sources */,
+				4B6F14352E8B8D6600B7555B /* Color+Ex.swift in Sources */,
 				FAAE74F760CDEC310894A23DF81686AB /* UINavigationController+Ex.swift in Sources */,
 				54421592CEA6FFBEBFB93001C5E69259 /* UIView+Ex.swift in Sources */,
 				A099CF07D0B77CDFD79248CED336FC98 /* UIViewController+Ex.swift in Sources */,
