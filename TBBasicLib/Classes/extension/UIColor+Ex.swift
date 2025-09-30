@@ -33,7 +33,7 @@ public extension UIColor {
     }
     
     /// 使用 16 进制字符串（支持 “#RRGGBB” 或 “#RRGGBBAA” 格式）初始化 UIColor
-    convenience init?(hex: String) {
+    convenience init(hex: String) {
         // 去除前后空格和换行符
         var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
         
@@ -47,7 +47,10 @@ public extension UIColor {
         var rgb: UInt64 = 0
         
         // 将 hex 字符串扫描成 UInt64 数值
-        guard Scanner(string: hexSanitized).scanHexInt64(&rgb) else { return nil }
+        guard Scanner(string: hexSanitized).scanHexInt64(&rgb) else {
+            self.init(red: 0, green: 0, blue: 0, alpha: 0)
+            return
+        }
         
         switch length {
         case 6:
@@ -65,12 +68,12 @@ public extension UIColor {
             self.init(red: r, green: g, blue: b, alpha: a)
         default:
             // 格式错误时返回 nil
-            return nil
+            self.init(red: 0, green: 0, blue: 0, alpha: 0)
         }
     }
     
     
     static var color696969: UIColor {
-        UIColor(hex: "#696969") ?? .white
+        UIColor(hex: "#696969")
     }
 }
