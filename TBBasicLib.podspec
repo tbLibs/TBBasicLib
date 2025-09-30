@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBBasicLib'
-  s.version          = '0.2.7'
+  s.version          = '0.2.8'
   s.summary          = '一个基础库'
 
 # This description is used to generate tags and improve search results.

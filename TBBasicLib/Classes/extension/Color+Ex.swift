@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-extension Color {
+public extension Color {
     init(hex: String) {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int = UInt64()
@@ -43,4 +43,10 @@ extension Color {
             opacity: Double(a) / 255
         )
     }
+    
+    static func hex(_ hex: String) -> Color {
+        Color(hex: hex)
+    }
+    
 }
+
