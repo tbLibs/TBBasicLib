@@ -17,6 +17,7 @@
 		3D25434E4344D64C1C695776D4D1B4D1 /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34739CC5890B201FB539894A707286F7 /* UIColor+Ex.swift */; };
 		44FE61871EBE288417B82A6AF54468AF /* TBBaseManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F63A0FE174299D7119D87115D4E94B /* TBBaseManage.swift */; };
 		4B6F14372E8B8EB200B7555B /* Color+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F14362E8B8EB200B7555B /* Color+Ex.swift */; };
+		4B815D052E97636800704ABC /* SwiftUI+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B815D042E97636800704ABC /* SwiftUI+Ex.swift */; };
 		4E3B44BA5AA5C3CB9F81E74063503C8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E31BFCE69A3A4BEC13CE3C15C09F41 /* QuartzCore.framework */; };
 		54421592CEA6FFBEBFB93001C5E69259 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D531B0D94802F2345168C95C65AE1E2F /* UIView+Ex.swift */; };
 		58DFDDC3536CB72FDDBEBFC968D5B1FB /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FCD31C4EE1DA60FB90F8B432CDE1C /* Toast-Swift-dummy.m */; };
@@ -94,6 +95,7 @@
 		466E6D6901B284C189555D58C1CE4F57 /* Pods-TBBasicLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBBasicLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		472B1953D70C2C37ADF805BF0F061A74 /* DDUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DDUserDefaults.swift; sourceTree = "<group>"; };
 		4B6F14362E8B8EB200B7555B /* Color+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ex.swift"; sourceTree = "<group>"; };
+		4B815D042E97636800704ABC /* SwiftUI+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+Ex.swift"; sourceTree = "<group>"; };
 		53F63A0FE174299D7119D87115D4E94B /* TBBaseManage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TBBaseManage.swift; sourceTree = "<group>"; };
 		56E0041FCEC3F2C3EE60FC9D6FFBE31C /* UINavigationController+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ex.swift"; sourceTree = "<group>"; };
 		5C1C4B3F9E0750DF1CEEB7571B6EDE41 /* Pods-TBBasicLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBBasicLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 				56E0041FCEC3F2C3EE60FC9D6FFBE31C /* UINavigationController+Ex.swift */,
 				D531B0D94802F2345168C95C65AE1E2F /* UIView+Ex.swift */,
 				6D773D522BA79E714EAAE740967A0B6F /* UIViewController+Ex.swift */,
+				4B815D042E97636800704ABC /* SwiftUI+Ex.swift */,
 			);
 			name = extension;
 			path = TBBasicLib/Classes/extension;
@@ -609,6 +612,7 @@
 				1E8DFEE5388974DF509A59466D2BEF16 /* SwiftUIable.swift in Sources */,
 				44FE61871EBE288417B82A6AF54468AF /* TBBaseManage.swift in Sources */,
 				EA06221470322AC8E447505C3DC77698 /* TBBaseNavigationController.swift in Sources */,
+				4B815D052E97636800704ABC /* SwiftUI+Ex.swift in Sources */,
 				0E8AB0FAD33B40BF4BAD0E480067A5BD /* TBBaseTabBarController.swift in Sources */,
 				619B5BEF34FE30D303F910565A79DE36 /* TBBaseViewController.swift in Sources */,
 				881BE69BBECFE6A16343BE0AD6A173F3 /* TBBasicLib-dummy.m in Sources */,

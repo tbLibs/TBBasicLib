@@ -14,8 +14,6 @@ class ViewController: TBBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let a =  UIColor(hex: "343233")
-        view.backgroundColor = a
     }
 
 
